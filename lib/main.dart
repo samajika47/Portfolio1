@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio1/login_screen.dart';
 import 'package:portfolio1/portfolio_screen.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PortfolioScreen()
+      home: LoginScreen()
     );
   }
 }
